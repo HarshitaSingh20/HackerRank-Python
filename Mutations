@@ -1,0 +1,16 @@
+if __name__ == '__main__':
+    s = input()
+    def ans(func)
+        for i in st:
+            c=0
+            if i.func()==True:
+                c=1
+        if c==1:
+            return True
+        else:
+            return False
+    
+   
+    ans(isalpha,s)
+
+        
