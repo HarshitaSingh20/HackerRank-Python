@@ -1,0 +1,29 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+c='.|.'
+s=input().split()
+height=int(s[0])
+width=int(s[1])
+c='.|.'
+
+#upper pyramid
+for i in range(height//2):
+  print((c*i).rjust((width-3)//2,'-')+c+(c*i).ljust((width-3)//2,'-'))
+
+  #welcome message 
+print('WELCOME'.center((width),'-'))
+
+
+#bottom pyramid 
+for i in range(height//2):
+  print((c*((height-3)//2-i)).rjust((width-3)//2,'-')+c+(c*((height-3)//2-i)).ljust((width-3)//2,'-'))
+
+  
+  
+
+
+
+
+
+  
+
+  
